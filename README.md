@@ -21,6 +21,10 @@
 
 ![full_convnet](https://github.com/iliakhar/FcToConvLay/blob/master/netron_res/conv_model.onnx.png)
 
+Вывод сравнения результатов сетей:
+
+![result](https://github.com/iliakhar/FcToConvLay/blob/master/res/res.png)
+
 Обученные модели лежат в папке - model;
 
 Изображения с визуализацией нейронных сетей - в папке netron_res.
