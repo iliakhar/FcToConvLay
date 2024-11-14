@@ -99,8 +99,8 @@ def compare_models(input_size: int, in_channels: int, out_channels: int, kernel_
     load_model(conv_model, 'model/conv_model.ckpt')
 
     inputs = load_tensor('inputs.pt')
-    print(f'Выход с fc слоя: {fc_model(inputs)}')
-    print(f'Выход с conv слоя: {conv_model(inputs)}')
+    print(f'Выход с полносвязной сети: {fc_model(inputs)}')
+    print(f'Выход с сети со сверточным слоем: {conv_model(inputs)}')
 
 
 def generate_input(input_size: int) -> None:
